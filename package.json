@@ -1,0 +1,38 @@
+{
+  "name": "fcm_push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyam0507/FCMPush.git"
+  },
+  "author": "Satyam Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyam0507/FCMPush/issues"
+  },
+  "homepage": "https://github.com/satyam0507/FCMPush#readme",
+    "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.15.0",
+    "express-handlebars": "^3.0.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.3.1",
+    "mocha": "^3.2.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
