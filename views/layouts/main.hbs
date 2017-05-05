@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <div> 
+    <div>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/view3">view3</a>
@@ -42,13 +42,29 @@
     {{{body}}}
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-   
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBjVeiDcc_d6Vg3PLGZ0t2nDlxCLDFGxks",
+            authDomain: "fcmpush-31f7a.firebaseapp.com",
+            databaseURL: "https://fcmpush-31f7a.firebaseio.com",
+            projectId: "fcmpush-31f7a",
+            storageBucket: "fcmpush-31f7a.appspot.com",
+            messagingSenderId: "608205369764"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    
     <script src="app.js"></script>
 </body>
 

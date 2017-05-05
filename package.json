@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,10 +17,11 @@
     "url": "https://github.com/satyam0507/FCMPush/issues"
   },
   "homepage": "https://github.com/satyam0507/FCMPush#readme",
-    "dependencies": {
+  "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.15.0",
     "express-handlebars": "^3.0.0",
+    "firebase-admin": "^4.2.1",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
