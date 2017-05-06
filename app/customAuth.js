@@ -3,7 +3,7 @@
 
 var admin = require("firebase-admin"),
     serviceAccount = require("../static/private/serviceAccountKey.json"),
-    uid = require("../static/private/uid.json").uid;
+    uid = require("../static/private/keys.json").uid;
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),

@@ -3,7 +3,6 @@
 var express = require('express');
 var exphbs = require('express-handlebars');
 var path = require('path');
-var fetch = require('node-fetch');
 var bodyParser = require('body-parser');
 var customApp = require('./app/index');
 
@@ -11,6 +10,7 @@ var app = express();
 app.use(bodyParser.json());
 
 var port = 4444;
+
 
 app.engine('hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }));
 app.set('view engine', 'hbs');
@@ -40,4 +40,6 @@ app.get('/offline', function (req, res) {
 app.listen(port, function () {
     console.log('app at port:- ' + port);
 });
+
+
 
