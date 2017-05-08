@@ -32,12 +32,7 @@
     <div>
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/view3">view3</a>
-        <a href="/view4">view4</a>
-        <a href="/view5">view5</a>
-        <a href="/view6">view6</a>
-        <a href="#main">#main</a>
-
+        <a href="/sendPush">Send Push</a>
     </div>
     {{{body}}}
 
@@ -66,6 +61,9 @@
     </script>
     
     <script src="app.js"></script>
+    {{#if sendPush}}
+    <script src="sendPush.js"></script>
+    {{/if}}
 </body>
 
 </html>
